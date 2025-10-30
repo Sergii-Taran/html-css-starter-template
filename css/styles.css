@@ -1,5 +1,5 @@
 :root {
-  --font-family: 'Inter', sans-serif;
+  --font-family: "Inter", sans-serif;
   --color-dark: #111111;
   --color-light: #ffffff;
   --color-accent: #0077ff;
@@ -12,6 +12,7 @@ body {
   background-color: var(--color-bg);
   line-height: 1.5;
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -20,10 +21,25 @@ img {
   height: auto;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+button {
+  cursor: pointer;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ----------------------------- */
+/* ------- global styles ------- */
 
 .container {
   width: 100%;
@@ -49,6 +65,15 @@ a {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ---------------------- */
+/* ------- header ------- */
+
 .header {
   background-color: var(--color-light);
   padding: 20px 0;
@@ -62,6 +87,72 @@ a {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* --------------------------- */
+/* ------- mobile menu ------- */
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ----------------------- */
+/* ------- section ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ---------------------- */
+/* ------- footer ------- */
+
 .footer {
   background-color: var(--color-dark);
   color: var(--color-light);
@@ -69,3 +160,21 @@ a {
   padding: 20px 0;
   font-size: 14px;
 }
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ---------------------------- */
+/* ------- modal window ------- */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
